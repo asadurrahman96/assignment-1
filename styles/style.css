@@ -1,0 +1,134 @@
+/* Font style */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.banner-section{
+  background-image:url(/Assets/Hero-bg.png);
+  width: 100%;
+
+}
+
+
+
+/* Nav section */
+.logo-icon{
+  color: #4E47FF;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 36px;
+  font-style: normal;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+.navbar-section{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 140px;
+  margin-left: 140px; 
+
+}
+.Btn-primary{
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border: none;
+  padding:  10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+
+}
+
+.headline-section{
+text-align: center;
+padding-top: 10px;
+padding-bottom: 150px;
+}
+.heading{
+  color: #252432;
+  font-weight: bold;
+  font-size: 70px;
+}
+.stay-btn{
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border: none;
+  padding:  10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.main-section{
+  display: flex;
+  margin-right: 152px;
+  margin-left: 130px;
+  margin-top: 70px;
+  background-color: #FFFFFF;
+
+
+}
+
+.scnd-heading{
+  color: #252432;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+.scnd-para{
+  color: #252432;
+  font-weight:200;
+  font-size: 24px;
+}
+.launch-btn{
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border: none;
+  padding:  10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+.wc-img{
+  margin-left: 205px;
+ 
+  width: 403px;
+  height: 328px;
+  border-radius: 50%;
+}
+
+
+ul li{
+  margin-right: 50px;
+}
+
+.productive-section{
+  background-color: rgb(213, 206, 206);
+  justify-items: center;
+  margin-left: 150px;
+  margin-right: 180px;
+  margin-top: 120px;
+  border: 2px solid;
+  border-radius: 5px;
+  border: none;
+ 
+}
+.lis-item{
+  list-style-type: none;
+  display: flex;
+  color: #4E47FF;
+}
+
+.pro-active{
+  padding-left: 142px;
+  padding-right: 142px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
