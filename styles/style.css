@@ -10,6 +10,7 @@
   width: 100%;
 
 }
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
 
 
 
@@ -18,7 +19,8 @@
   color: #4E47FF;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 36px;
+  font-weight: 60px;
+  font-size: large;
   font-style: normal;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -54,7 +56,7 @@ padding-bottom: 150px;
 .heading{
   color: #252432;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 75px;
 }
 .stay-btn{
   background-color: #4E47FF;
@@ -68,12 +70,19 @@ padding-bottom: 150px;
 
 .main-section{
   display: flex;
-  margin-right: 152px;
-  margin-left: 130px;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 152px;
+  margin-left: 130px; */
   margin-top: 70px;
+  margin-bottom: 40px;
   background-color: #FFFFFF;
 
 
+}
+.scnd-section{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .scnd-heading{
@@ -96,12 +105,17 @@ padding-bottom: 150px;
   font-weight: bold;
 
 }
-.wc-img{
+.wc-img img{
   margin-left: 205px;
- 
+  border-radius: 20px;
   width: 403px;
   height: 328px;
-  border-radius: 50%;
+ 
+  
+}
+.wc-img{
+   padding-top: 116px;
+
 }
 
 
@@ -109,26 +123,181 @@ ul li{
   margin-right: 50px;
 }
 
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+
+}
+.first-section{
+  padding-left: 142px;
+  padding-right: 142px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .productive-section{
   background-color: rgb(213, 206, 206);
   justify-items: center;
-  margin-left: 150px;
-  margin-right: 180px;
-  margin-top: 120px;
+  /* width: 1440px;
+  height: auto; */
+  /* margin-left: 150px;
+  margin-right: 180px; */
+  /* margin-top: 120px; */
   border: 2px solid;
   border-radius: 5px;
   border: none;
- 
+  margin-top: 25px;
+  /* padding: 50px 140px; */
+
 }
 .lis-item{
   list-style-type: none;
   display: flex;
   color: #4E47FF;
 }
+.active-users{
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  
+  /* padding-right: 140px;
+  padding-left: 140px; */
+  /* margin-right: 140px;
+  margin-left: 140px;
+  justify-content: space-around; */
 
-.pro-active{
-  padding-left: 142px;
-  padding-right: 142px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+}
+.heading-users{
+  font-weight: bold;
+  font-size: 42px;
+  color:#252432 ;
+}
+/* .users-item-title{
+  font-weight: bold;
+  font-size: 60px;
+  color: #4E47FF;
+} */
+
+
+.users-item-title{
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 100px;
+  color: #4E47FF;
+  /* line-height: -20px; */
+}
+.item-description{
+  /* margin: opx; */
+  font-family: "Inter",sans-serif;
+  font-weight: 100px;
+}
+
+
+.card{
+  display: flex;
+  margin-top: 24px;
+}
+
+.review-heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+  color:#252432 ;
+
+}
+
+.card-section{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+
+.review{
+  border: 2px solid;
+  background-color: #F2EDED;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 24px;
+  /* padding-right: 24px;
+  padding-bottom: 68px; */
+  margin-top: 24px;
+}
+
+
+.focus-better{
+  text-align: center;
+ 
+}
+
+.third-section{
+  padding-top: 35px;
+
+}
+
+.focus-better img{
+  border-radius: 20px;
+}
+
+
+.form-table{
+  display: flex;
+  flex-direction: column;
+  padding-top:71px;
+  padding-bottom:71px;
+}
+.form{
+  padding: 5px 2px ;
+}
+.review-section{
+  margin-top: 20px;
+}
+
+
+
+/* .newsletter{
+  padding: 130px 230px;
+  display: flex;
+  gap: 200px;
+} */
+.footer-column{
+  padding: 130px 230px;
+  display: flex;
+  gap: 200px;
+
+}
+section input[type="text"],section input[type="email"],section textarea{
+  height: 64px;
+  border-radius: 5px;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.footer{
+  text-align: center;
+  margin-right: 454px;
+  margin-left:455px;
+}
+nav ul li{
+  list-style: none;
+  /* display: flex; */
+  margin-right: 60px;
+}
+/* nav ul{
+  display: flex;
+} */
+
+/* .footer-nav{
+  display: flex;
+} */
+
+.logo{
+ font-weight: bolder;
+ font-size: large;
 }
